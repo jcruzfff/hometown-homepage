@@ -1,0 +1,141 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+#header {
+  background-image: url(images/cityofsf.png);
+  height: auto;
+  background-size: cover;
+  padding: 80px 0px 80px 0px;
+  background-position: 10%;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30vw;
+  font-size: 3vw;
+  margin: auto;
+  background-color: #58c396;
+  padding: 5px 24px;
+  border-radius: 12px;
+  border: 2px solid;
+  margin-bottom: 24px;
+  color: white;
+  text-wrap: nowrap;
+}
+
+h2 {
+  background-color: #bad4aa;
+  padding: 5px;
+  border-radius: 12px;
+  width: 50vw;
+  font-size: 2vw;
+  margin: auto;
+  color: white;
+}
+
+h3 {
+  padding: 24px 0px 0px 0px;
+  margin: 0 24px 0 24px;
+  font-size: 24px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 12px;
+  border: 3px solid lightgray;
+}
+
+.middle-section {
+  background-color: #f1f1e1;
+  padding: 0 24px 32px;
+}
+
+.activities {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+  gap: 32px;
+  background-color: #bbd6c775;
+  border-radius: 24px;
+  margin-top: 24px;
+  padding: 24px;
+}
+
+.streetmusic,
+.streetscene,
+.techscene {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.guide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 72px auto 24px auto;
+  width: 60vw;
+  background-color: rgb(194, 224, 194);
+  border-radius: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.your-guide {
+  padding: 0px 5px 0px 5px;
+}
+
+#jon {
+  border: 3px solid lightgray;
+  margin: 12px 0px 0px 12px;
+}
+.bio {
+  margin: 4px 0 12px 0px;
+  font-size: 12px;
+}
+.name {
+  margin: 0px 0px 4px 0px;
+  font-size: 24px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  bottom: 0px;
+}
